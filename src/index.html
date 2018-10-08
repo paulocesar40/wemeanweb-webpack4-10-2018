@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <!--<img src=<%=require("./images/UpdatedLogo.svg")%> />-->
+      <!--<img src="./images/UpdatedLogo.svg" alt="Logo">-->
+      <div class="site-header__btn-container">
+        <a href="#" class="btn">Get In Touch</a>
+      </div>
+      <nav class="primary-nav primary-nav--pull-right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="large-hero">
+    <picture>
+      <source srcset="./images/iStock-971380858-large.jpg" media="(min-width: 1025px)">
+      <source srcset="./images/iStock-971380858-medium.jpg" media="(min-width: 768px)">
+      <img src="./images/iStock-971380858-small.jpg" alt="Women Working" class="large-hero__image">
+    </picture>
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+        <h1 class="large-hero__title">Affordable Websites</h1>
+        <h1 class="large-hero__title"><span class="txt-type" data-wait="3000" data-words='["For You", "For Your Company", "For Your Office", "For Your Medical Office"]'></span></h1>
+        <h2 class="large-hero__subtitle">We're your online presence</h2>
+        <p class="large-hero__description">Count on us to create your fast, beautiful and responsive webiste</p>
+        <p><a class="btn btn--orange btn--large" href="#">Get Started Today</a></p>
+      </div>
+    </div>
+  </div>
+  <section id="about">
+    <div class="page-section">
+      <div class="wrapper">
+        <h2 class="headline headline--centered headline--light headline--b-margin-small">Our first website <strong>was
+            our own</strong></h2>
+        <h3 class="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large">We're
+          Focused in <strong>small companies</strong></h3>
+        <div class="wrapper wrapper--medium wrapper--b-margin">
+          <img src="./images/iStock-999811422-small.jpg" alt="Woman Smiling">
+        </div>
+        <div class="row row--gutters">
+          <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+            <img src="./images/iStock-654425082-small.jpg" alt="">
+          </div>
+          <div class="row__medium-8 row__medium-8--smaller">
+            <div class="generic-content-container">
+              <h2 class="headline headline--no-t-margin">Every company must have a web presence</h2>
+              <p>In the today's world, every company must have a web presence. It is a mandatory step. But, jut the web
+                presence isn't enugh. This has to be a quality presence focused on reaching its costumers. So, at We
+                Mean
+                Web
+                ur focus is to render to our customers all the quality they deserve. More than this, we love happy
+                people
+                So,
+                we'll make everything right since our first step.</p>
+              <h3 class="headline headline--small headline--light">Mobile first in mind</h3>
+              <p>Mobile users are bigger than desktop users since 2014. Note that 85% of users say taht their mobile
+                phones are central in their day to day life. Recently, Google has poor hanked websites that are not
+                mobile responsive. We'll make sure your website be mobile responsive and not only a separate version of
+                your desktop website.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="page-section page-section--blue">
+      <div class="wrapper">
+        <h2>Our Services</h2>
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>We write code accordingly Google's standards. With mobile's first in mind your website will be better
+            ranked in all listings and will generate more businesses for you.
+          </p>
+          <a href="#">Choose Plan</a>
+        </div>
+        <div class="card">
+          <h3>Web Hosting</h3>
+          <p>There's no strong online presence without a good hosting service. we work only with prime hosting
+            companies, like Amazon AWS or DigitalOcean, per example.</p>
+          <a href="#">Order hosting</a>
+        </div>
+        <div class="card">
+          <h3>Email Marketing</h3>
+          <p>To keep a clean contact with your customers you will need to relay in an email lmarketing that manages all
+            your communications and newsletters.</p>
+          <a href="#">Contac Us</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <p>Copyright &copy: 2018 We Mean Web. All rights reserved. <a class="btn btn--orange" href="#">Get in Touch</a></p>
+  </footer>
+</body>
+
+</html>
